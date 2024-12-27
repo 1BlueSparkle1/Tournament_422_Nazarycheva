@@ -33,6 +33,7 @@
         <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_ResultPlayer_Tournament" ManuallyRouted="false" />
         <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_Stage_Tournament" ManuallyRouted="false" />
         <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_StageRestriction_Stage" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_Tournament_Category" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

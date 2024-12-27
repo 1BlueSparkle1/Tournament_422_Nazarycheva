@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|c:\\users\\lera\\source\\repos\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\pages\\homeplayerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\homeplayerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|c:\\users\\lera\\source\\repos\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\pages\\listalltournamentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\listalltournamentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|c:\\users\\lera\\source\\repos\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|c:\\users\\lera\\source\\repos\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|c:\\users\\lera\\source\\repos\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\pages\\listalltournamentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\listalltournamentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\pages\\registrationorganizerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\registrationorganizerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|c:\\users\\lera\\source\\repos\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\components\\usercontrols\\tournamentusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\components\\usercontrols\\tournamentusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|c:\\users\\lera\\source\\repos\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|c:\\users\\lera\\source\\repos\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\components\\usercontrols\\tournamentusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\components\\usercontrols\\tournamentusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\pages\\registrationorganizerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\registrationorganizerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\components\\navigations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\components\\navigations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\pages\\autharizationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -31,8 +43,24 @@
       "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\autharizationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\components\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|c:\\users\\lera\\source\\repos\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\tournament_422_nazarycheva\\components\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\components\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\pages\\registrationorganizerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\registrationorganizerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\pages\\registrationorganizerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\registrationorganizerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\pages\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\components\\navigations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\components\\navigations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\tournament_422_nazarycheva\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2C3ED987-8E80-4D6F-9C8E-D4C803CEF80B}|Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva.csproj|solutionrelative:tournament_422_nazarycheva\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -62,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,67 +94,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegistrationPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml.cs",
-              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml.cs",
-              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwC4AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:35:10.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AutharizationPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml.cs",
-              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml.cs",
-              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAuwGsAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:29:42.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\App.xaml.cs",
-              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\App.xaml.cs",
-              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\App.xaml.cs",
-              "RelativeToolTip": "Tournament_422_Nazarycheva\\App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:11:00.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegistrationOrganizerPage.xaml",
-              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml",
-              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml",
-              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml",
-              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml",
+              "DocumentIndex": 0,
+              "Title": "HomePlayerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\HomePlayerPage.xaml",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\HomePlayerPage.xaml",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\HomePlayerPage.xaml",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\HomePlayerPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-27T12:27:45.686Z"
+              "WhenOpened": "2024-12-27T14:17:28.458Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegistrationPage.xaml",
-              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml",
-              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml",
-              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml",
-              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-27T12:20:54.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\HomePage.xaml",
               "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\HomePage.xaml",
@@ -143,30 +119,142 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegistrationOrganizerPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml.cs",
-              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml.cs",
-              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml.cs",
-              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAwC0AAAAMAAAA",
+              "Title": "Pages\\HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\HomePage.xaml.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwC8AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:57:17.567Z",
+              "WhenOpened": "2024-12-27T13:36:59.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TournamentUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\userControls\\TournamentUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Components\\userControls\\TournamentUserControl.xaml.cs",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\userControls\\TournamentUserControl.xaml.cs",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Components\\userControls\\TournamentUserControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:50:26.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListAllTournamentPage.xaml",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\ListAllTournamentPage.xaml",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\ListAllTournamentPage.xaml",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\ListAllTournamentPage.xaml",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\ListAllTournamentPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-27T13:40:11.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListAllTournamentPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\ListAllTournamentPage.xaml.cs",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\ListAllTournamentPage.xaml.cs",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\ListAllTournamentPage.xaml.cs",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\ListAllTournamentPage.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAIA4wDYAAACTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T13:41:35.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TournamentUserControl.xaml",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\userControls\\TournamentUserControl.xaml",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Components\\userControls\\TournamentUserControl.xaml",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\userControls\\TournamentUserControl.xaml",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Components\\userControls\\TournamentUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-27T13:45:08.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Navigations.cs",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\Navigations.cs",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Components\\Navigations.cs",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\Navigations.cs",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Components\\Navigations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:16:12.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AutharizationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml.cs",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwEcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:29:42.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutharizationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-27T12:20:30.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Model1.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\Model1.edmx",
               "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Components\\Model1.edmx",
               "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\Model1.edmx [Diagram1]",
               "RelativeToolTip": "Tournament_422_Nazarycheva\\Components\\Model1.edmx [Diagram1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-12-27T12:48:05.491Z"
+              "WhenOpened": "2024-12-27T13:53:43.028Z",
+              "EditorCaption": " [Diagram1]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
+              "Title": "RegistrationOrganizerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-27T12:27:45.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-27T12:20:54.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\App.xaml",
               "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\App.xaml",
@@ -178,30 +266,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AutharizationPage.xaml",
-              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml",
-              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml",
-              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml",
-              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\AutharizationPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-27T12:20:30.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Navigations.cs",
-              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\Navigations.cs",
-              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Components\\Navigations.cs",
-              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Components\\Navigations.cs",
-              "RelativeToolTip": "Tournament_422_Nazarycheva\\Components\\Navigations.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "DocumentIndex": 15,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\App.xaml.cs",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:16:12.618Z"
+              "WhenOpened": "2024-12-27T12:11:00.491Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\RegistrationPage.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwC4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:35:10.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistrationOrganizerPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml.cs",
+              "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml.cs",
+              "ToolTip": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml.cs",
+              "RelativeToolTip": "Tournament_422_Nazarycheva\\Pages\\RegistrationOrganizerPage.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:57:17.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\MainWindow.xaml",
@@ -212,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\LERA\\source\\repos\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\Tournament_422_Nazarycheva\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Tournament_422_Nazarycheva\\MainWindow.xaml.cs",

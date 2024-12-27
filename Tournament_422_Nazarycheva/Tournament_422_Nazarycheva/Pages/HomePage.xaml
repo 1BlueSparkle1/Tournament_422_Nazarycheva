@@ -14,7 +14,13 @@
             <ColumnDefinition Width="161*"/>
         </Grid.ColumnDefinitions>
 
-        <Frame x:Name="ViewerFrame"></Frame>
-        
+        <Frame Grid.Column="1" x:Name="ViewerFrame"></Frame>
+
+        <StackPanel>
+            <Button x:Name="FutureBtn" Click="FutureBtn_Click">Будущие</Button>
+            <Button x:Name="NowBtn" Click="NowBtn_Click">Идущие</Button>
+            <Button x:Name="LastBtn" Click="LastBtn_Click">Прошедшие</Button>
+            <Button x:Name="ExitBtn" Click="ExitBtn_Click">Выйти</Button>
+        </StackPanel>
     </Grid>
 </Page>

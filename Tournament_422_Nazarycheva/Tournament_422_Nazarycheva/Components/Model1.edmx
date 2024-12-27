@@ -275,6 +275,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_Tournament_Category">
+          <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+          <End Role="Tournament" Type="Self.Tournament" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tournament">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_Tournament_Game">
           <End Role="Game" Type="Self.Game" Multiplicity="0..1" />
           <End Role="Tournament" Type="Self.Tournament" Multiplicity="*" />
@@ -362,6 +374,10 @@
             <End Role="Stage" EntitySet="Stage" />
             <End Role="StageRestriction" EntitySet="StageRestriction" />
           </AssociationSet>
+          <AssociationSet Name="FK_Tournament_Category" Association="Self.FK_Tournament_Category">
+            <End Role="Category" EntitySet="Category" />
+            <End Role="Tournament" EntitySet="Tournament" />
+          </AssociationSet>
           <AssociationSet Name="FK_Tournament_Game" Association="Self.FK_Tournament_Game">
             <End Role="Game" EntitySet="Game" />
             <End Role="Tournament" EntitySet="Tournament" />
@@ -381,6 +397,7 @@
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" />
           <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Tournament" Relationship="TournamentDB_422_NazarychevaModel.FK_Tournament_Category" FromRole="Category" ToRole="Tournament" />
         </EntityType>
         <EntityType Name="CharacterRestriction">
           <Key>
@@ -528,6 +545,7 @@
           <NavigationProperty Name="RegionalRestrictions" Relationship="Self.FK_RegionalRestrictions_Tournament" FromRole="Tournament" ToRole="RegionalRestrictions" />
           <NavigationProperty Name="ResultPlayer" Relationship="Self.FK_ResultPlayer_Tournament" FromRole="Tournament" ToRole="ResultPlayer" />
           <NavigationProperty Name="Stage" Relationship="Self.FK_Stage_Tournament" FromRole="Tournament" ToRole="Stage" />
+          <NavigationProperty Name="Category" Relationship="TournamentDB_422_NazarychevaModel.FK_Tournament_Category" FromRole="Tournament" ToRole="Category" />
         </EntityType>
         <Association Name="FK_CharacterRestriction_Role">
           <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
@@ -768,7 +786,23 @@
             <End Role="Stage" EntitySet="Stage" />
             <End Role="StageRestriction" EntitySet="StageRestriction" />
           </AssociationSet>
+          <AssociationSet Name="FK_Tournament_Category" Association="TournamentDB_422_NazarychevaModel.FK_Tournament_Category">
+            <End Role="Category" EntitySet="Category" />
+            <End Role="Tournament" EntitySet="Tournament" />
+          </AssociationSet>
         </EntityContainer>
+        <Association Name="FK_Tournament_Category">
+          <End Type="TournamentDB_422_NazarychevaModel.Category" Role="Category" Multiplicity="0..1" />
+          <End Type="TournamentDB_422_NazarychevaModel.Tournament" Role="Tournament" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Category">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Tournament">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->

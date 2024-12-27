@@ -42,5 +42,6 @@ namespace Tournament_422_Nazarycheva.Components
         public virtual ICollection<ResultPlayer> ResultPlayer { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Stage> Stage { get; set; }
+        public virtual Category Category { get; set; }
     }
 }

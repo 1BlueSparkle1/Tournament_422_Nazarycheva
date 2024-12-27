@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\App.xaml
-5-870267498
+7-448163777
 2-1407320939
-27930982193
+291027632964
 1898550635
-MainWindow.xaml;Pages\AutharizationPage.xaml;Pages\HomePage.xaml;Pages\RegistrationOrganizerPage.xaml;Pages\RegistrationPage.xaml;
+Components\userControls\TournamentUserControl.xaml;MainWindow.xaml;Pages\AutharizationPage.xaml;Pages\HomePage.xaml;Pages\ListAllTournamentPage.xaml;Pages\RegistrationOrganizerPage.xaml;Pages\RegistrationPage.xaml;
 
 False
 

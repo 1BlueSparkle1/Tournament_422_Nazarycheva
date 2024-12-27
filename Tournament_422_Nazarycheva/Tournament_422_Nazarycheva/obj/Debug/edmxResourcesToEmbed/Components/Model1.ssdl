@@ -270,6 +270,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK_Tournament_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Tournament" Type="Self.Tournament" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tournament">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK_Tournament_Game">
     <End Role="Game" Type="Self.Game" Multiplicity="0..1" />
     <End Role="Tournament" Type="Self.Tournament" Multiplicity="*" />
@@ -356,6 +368,10 @@
     <AssociationSet Name="FK_StageRestriction_Stage" Association="Self.FK_StageRestriction_Stage">
       <End Role="Stage" EntitySet="Stage" />
       <End Role="StageRestriction" EntitySet="StageRestriction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tournament_Category" Association="Self.FK_Tournament_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Tournament" EntitySet="Tournament" />
     </AssociationSet>
     <AssociationSet Name="FK_Tournament_Game" Association="Self.FK_Tournament_Game">
       <End Role="Game" EntitySet="Game" />
