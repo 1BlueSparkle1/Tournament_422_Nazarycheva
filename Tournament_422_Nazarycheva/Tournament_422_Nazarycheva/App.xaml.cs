@@ -14,6 +14,8 @@ namespace Tournament_422_Nazarycheva
     /// </summary>
     public partial class App : Application
     {
-        TournamentDB_422_NazarychevaEntities db = new TournamentDB_422_NazarychevaEntities();
+        public static TournamentDB_422_NazarychevaEntities db = new TournamentDB_422_NazarychevaEntities();
+        public static Player thisPlayer = new Player();
+        public static Organizer thisOrganizer = new Organizer();
     }
 }

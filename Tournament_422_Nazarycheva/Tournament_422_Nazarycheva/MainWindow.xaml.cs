@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Tournament_422_Nazarycheva.Components;
+using Tournament_422_Nazarycheva.Pages;
 
 namespace Tournament_422_Nazarycheva
 {
@@ -23,6 +25,9 @@ namespace Tournament_422_Nazarycheva
         public MainWindow()
         {
             InitializeComponent();
+            Navigations.mainWindow = this;
+
+            Navigations.NextPage(new AutharizationPage());
         }
     }
 }

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище TournamentDB_422_NazarychevaModelContainer" CdmEntityContainer="TournamentDB_422_NazarychevaEntities">
+    <EntitySetMapping Name="Category">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CharacterRestriction">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.CharacterRestriction">
+        <MappingFragment StoreEntitySet="CharacterRestriction">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="TournamentId" ColumnName="TournamentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Game">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.Game">
+        <MappingFragment StoreEntitySet="Game">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Organizer">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.Organizer">
+        <MappingFragment StoreEntitySet="Organizer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Patronymic" ColumnName="Patronymic" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Player">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.Player">
+        <MappingFragment StoreEntitySet="Player">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="TeamId" ColumnName="TeamId" />
+          <ScalarProperty Name="Nickname" ColumnName="Nickname" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="RegionId" ColumnName="RegionId" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Region">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.Region">
+        <MappingFragment StoreEntitySet="Region">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RegionalRestrictions">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.RegionalRestrictions">
+        <MappingFragment StoreEntitySet="RegionalRestrictions">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="RegionId" ColumnName="RegionId" />
+          <ScalarProperty Name="TournamentId" ColumnName="TournamentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ResultPlayer">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.ResultPlayer">
+        <MappingFragment StoreEntitySet="ResultPlayer">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PlayerId" ColumnName="PlayerId" />
+          <ScalarProperty Name="TournamentId" ColumnName="TournamentId" />
+          <ScalarProperty Name="Points" ColumnName="Points" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stage">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.Stage">
+        <MappingFragment StoreEntitySet="Stage">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NameStage" ColumnName="NameStage" />
+          <ScalarProperty Name="QuantityPlayer" ColumnName="QuantityPlayer" />
+          <ScalarProperty Name="TournamentId" ColumnName="TournamentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StageRestriction">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.StageRestriction">
+        <MappingFragment StoreEntitySet="StageRestriction">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="PlayerId" ColumnName="PlayerId" />
+          <ScalarProperty Name="StageId" ColumnName="StageId" />
+          <ScalarProperty Name="Points" ColumnName="Points" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Team">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.Team">
+        <MappingFragment StoreEntitySet="Team">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tournament">
+      <EntityTypeMapping TypeName="TournamentDB_422_NazarychevaModel.Tournament">
+        <MappingFragment StoreEntitySet="Tournament">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="DatetimeStart" ColumnName="DatetimeStart" />
+          <ScalarProperty Name="GameId" ColumnName="GameId" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="QuantityPlayer" ColumnName="QuantityPlayer" />
+          <ScalarProperty Name="MinRank" ColumnName="MinRank" />
+          <ScalarProperty Name="OrganizerId" ColumnName="OrganizerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TournamentDB_422_NazarychevaModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="CharacterRestriction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="RoleId" Type="Int32" />
+    <Property Name="TournamentId" Type="Int32" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_CharacterRestriction_Role" FromRole="CharacterRestriction" ToRole="Role" />
+    <NavigationProperty Name="Tournament" Relationship="Self.FK_CharacterRestriction_Tournament" FromRole="CharacterRestriction" ToRole="Tournament" />
+  </EntityType>
+  <EntityType Name="Game">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Tournament" Relationship="Self.FK_Tournament_Game" FromRole="Game" ToRole="Tournament" />
+  </EntityType>
+  <EntityType Name="Organizer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Patronymic" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Tournament" Relationship="Self.FK_Tournament_Organizer" FromRole="Organizer" ToRole="Tournament" />
+  </EntityType>
+  <EntityType Name="Player">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="TeamId" Type="Int32" />
+    <Property Name="Nickname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
+    <Property Name="RoleId" Type="Int32" />
+    <Property Name="RegionId" Type="Int32" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Region" Relationship="Self.FK_Player_Region" FromRole="Player" ToRole="Region" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_Player_Role" FromRole="Player" ToRole="Role" />
+    <NavigationProperty Name="Team" Relationship="Self.FK_Player_Team" FromRole="Player" ToRole="Team" />
+    <NavigationProperty Name="ResultPlayer" Relationship="Self.FK_ResultPlayer_Player" FromRole="Player" ToRole="ResultPlayer" />
+    <NavigationProperty Name="StageRestriction" Relationship="Self.FK_StageRestriction_Player" FromRole="Player" ToRole="StageRestriction" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Player" Relationship="Self.FK_Player_Region" FromRole="Region" ToRole="Player" />
+    <NavigationProperty Name="RegionalRestrictions" Relationship="Self.FK_RegionalRestrictions_Region" FromRole="Region" ToRole="RegionalRestrictions" />
+  </EntityType>
+  <EntityType Name="RegionalRestrictions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="RegionId" Type="Int32" />
+    <Property Name="TournamentId" Type="Int32" />
+    <NavigationProperty Name="Region" Relationship="Self.FK_RegionalRestrictions_Region" FromRole="RegionalRestrictions" ToRole="Region" />
+    <NavigationProperty Name="Tournament" Relationship="Self.FK_RegionalRestrictions_Tournament" FromRole="RegionalRestrictions" ToRole="Tournament" />
+  </EntityType>
+  <EntityType Name="ResultPlayer">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="PlayerId" Type="Int32" />
+    <Property Name="TournamentId" Type="Int32" />
+    <Property Name="Points" Type="Int32" />
+    <NavigationProperty Name="Player" Relationship="Self.FK_ResultPlayer_Player" FromRole="ResultPlayer" ToRole="Player" />
+    <NavigationProperty Name="Tournament" Relationship="Self.FK_ResultPlayer_Tournament" FromRole="ResultPlayer" ToRole="Tournament" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="CharacterRestriction" Relationship="Self.FK_CharacterRestriction_Role" FromRole="Role" ToRole="CharacterRestriction" />
+    <NavigationProperty Name="Player" Relationship="Self.FK_Player_Role" FromRole="Role" ToRole="Player" />
+  </EntityType>
+  <EntityType Name="Stage">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="NameStage" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="QuantityPlayer" Type="Int32" />
+    <Property Name="TournamentId" Type="Int32" />
+    <NavigationProperty Name="Tournament" Relationship="Self.FK_Stage_Tournament" FromRole="Stage" ToRole="Tournament" />
+    <NavigationProperty Name="StageRestriction" Relationship="Self.FK_StageRestriction_Stage" FromRole="Stage" ToRole="StageRestriction" />
+  </EntityType>
+  <EntityType Name="StageRestriction">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="PlayerId" Type="Int32" />
+    <Property Name="StageId" Type="Int32" />
+    <Property Name="Points" Type="Int32" />
+    <NavigationProperty Name="Player" Relationship="Self.FK_StageRestriction_Player" FromRole="StageRestriction" ToRole="Player" />
+    <NavigationProperty Name="Stage" Relationship="Self.FK_StageRestriction_Stage" FromRole="StageRestriction" ToRole="Stage" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Team">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Player" Relationship="Self.FK_Player_Team" FromRole="Team" ToRole="Player" />
+  </EntityType>
+  <EntityType Name="Tournament">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DatetimeStart" Type="DateTime" Precision="3" />
+    <Property Name="GameId" Type="Int32" />
+    <Property Name="CategoryId" Type="Int32" />
+    <Property Name="QuantityPlayer" Type="Int32" />
+    <Property Name="MinRank" Type="Int32" />
+    <Property Name="OrganizerId" Type="Int32" />
+    <NavigationProperty Name="CharacterRestriction" Relationship="Self.FK_CharacterRestriction_Tournament" FromRole="Tournament" ToRole="CharacterRestriction" />
+    <NavigationProperty Name="Game" Relationship="Self.FK_Tournament_Game" FromRole="Tournament" ToRole="Game" />
+    <NavigationProperty Name="Organizer" Relationship="Self.FK_Tournament_Organizer" FromRole="Tournament" ToRole="Organizer" />
+    <NavigationProperty Name="RegionalRestrictions" Relationship="Self.FK_RegionalRestrictions_Tournament" FromRole="Tournament" ToRole="RegionalRestrictions" />
+    <NavigationProperty Name="ResultPlayer" Relationship="Self.FK_ResultPlayer_Tournament" FromRole="Tournament" ToRole="ResultPlayer" />
+    <NavigationProperty Name="Stage" Relationship="Self.FK_Stage_Tournament" FromRole="Tournament" ToRole="Stage" />
+  </EntityType>
+  <Association Name="FK_CharacterRestriction_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="CharacterRestriction" Type="Self.CharacterRestriction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CharacterRestriction">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CharacterRestriction_Tournament">
+    <End Role="Tournament" Type="Self.Tournament" Multiplicity="0..1" />
+    <End Role="CharacterRestriction" Type="Self.CharacterRestriction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tournament">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="CharacterRestriction">
+        <PropertyRef Name="TournamentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tournament_Game">
+    <End Role="Game" Type="Self.Game" Multiplicity="0..1" />
+    <End Role="Tournament" Type="Self.Tournament" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Game">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tournament">
+        <PropertyRef Name="GameId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tournament_Organizer">
+    <End Role="Organizer" Type="Self.Organizer" Multiplicity="0..1" />
+    <End Role="Tournament" Type="Self.Tournament" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Organizer">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Tournament">
+        <PropertyRef Name="OrganizerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Player_Region">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="Player" Type="Self.Player" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Player">
+        <PropertyRef Name="RegionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Player_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="Player" Type="Self.Player" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Player">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Player_Team">
+    <End Role="Team" Type="Self.Team" Multiplicity="0..1" />
+    <End Role="Player" Type="Self.Player" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Team">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Player">
+        <PropertyRef Name="TeamId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResultPlayer_Player">
+    <End Role="Player" Type="Self.Player" Multiplicity="0..1" />
+    <End Role="ResultPlayer" Type="Self.ResultPlayer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Player">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ResultPlayer">
+        <PropertyRef Name="PlayerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StageRestriction_Player">
+    <End Role="Player" Type="Self.Player" Multiplicity="0..1" />
+    <End Role="StageRestriction" Type="Self.StageRestriction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Player">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StageRestriction">
+        <PropertyRef Name="PlayerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RegionalRestrictions_Region">
+    <End Role="Region" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="RegionalRestrictions" Type="Self.RegionalRestrictions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Region">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RegionalRestrictions">
+        <PropertyRef Name="RegionId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RegionalRestrictions_Tournament">
+    <End Role="Tournament" Type="Self.Tournament" Multiplicity="0..1" />
+    <End Role="RegionalRestrictions" Type="Self.RegionalRestrictions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tournament">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="RegionalRestrictions">
+        <PropertyRef Name="TournamentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ResultPlayer_Tournament">
+    <End Role="Tournament" Type="Self.Tournament" Multiplicity="0..1" />
+    <End Role="ResultPlayer" Type="Self.ResultPlayer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tournament">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ResultPlayer">
+        <PropertyRef Name="TournamentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Stage_Tournament">
+    <End Role="Tournament" Type="Self.Tournament" Multiplicity="0..1" />
+    <End Role="Stage" Type="Self.Stage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tournament">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Stage">
+        <PropertyRef Name="TournamentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_StageRestriction_Stage">
+    <End Role="Stage" Type="Self.Stage" Multiplicity="0..1" />
+    <End Role="StageRestriction" Type="Self.StageRestriction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Stage">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StageRestriction">
+        <PropertyRef Name="StageId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="TournamentDB_422_NazarychevaEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Category" EntityType="Self.Category" />
+    <EntitySet Name="CharacterRestriction" EntityType="Self.CharacterRestriction" />
+    <EntitySet Name="Game" EntityType="Self.Game" />
+    <EntitySet Name="Organizer" EntityType="Self.Organizer" />
+    <EntitySet Name="Player" EntityType="Self.Player" />
+    <EntitySet Name="Region" EntityType="Self.Region" />
+    <EntitySet Name="RegionalRestrictions" EntityType="Self.RegionalRestrictions" />
+    <EntitySet Name="ResultPlayer" EntityType="Self.ResultPlayer" />
+    <EntitySet Name="Role" EntityType="Self.Role" />
+    <EntitySet Name="Stage" EntityType="Self.Stage" />
+    <EntitySet Name="StageRestriction" EntityType="Self.StageRestriction" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Team" EntityType="Self.Team" />
+    <EntitySet Name="Tournament" EntityType="Self.Tournament" />
+    <AssociationSet Name="FK_CharacterRestriction_Role" Association="Self.FK_CharacterRestriction_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="CharacterRestriction" EntitySet="CharacterRestriction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CharacterRestriction_Tournament" Association="Self.FK_CharacterRestriction_Tournament">
+      <End Role="Tournament" EntitySet="Tournament" />
+      <End Role="CharacterRestriction" EntitySet="CharacterRestriction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tournament_Game" Association="Self.FK_Tournament_Game">
+      <End Role="Game" EntitySet="Game" />
+      <End Role="Tournament" EntitySet="Tournament" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tournament_Organizer" Association="Self.FK_Tournament_Organizer">
+      <End Role="Organizer" EntitySet="Organizer" />
+      <End Role="Tournament" EntitySet="Tournament" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Player_Region" Association="Self.FK_Player_Region">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="Player" EntitySet="Player" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Player_Role" Association="Self.FK_Player_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Player" EntitySet="Player" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Player_Team" Association="Self.FK_Player_Team">
+      <End Role="Team" EntitySet="Team" />
+      <End Role="Player" EntitySet="Player" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResultPlayer_Player" Association="Self.FK_ResultPlayer_Player">
+      <End Role="Player" EntitySet="Player" />
+      <End Role="ResultPlayer" EntitySet="ResultPlayer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StageRestriction_Player" Association="Self.FK_StageRestriction_Player">
+      <End Role="Player" EntitySet="Player" />
+      <End Role="StageRestriction" EntitySet="StageRestriction" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RegionalRestrictions_Region" Association="Self.FK_RegionalRestrictions_Region">
+      <End Role="Region" EntitySet="Region" />
+      <End Role="RegionalRestrictions" EntitySet="RegionalRestrictions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RegionalRestrictions_Tournament" Association="Self.FK_RegionalRestrictions_Tournament">
+      <End Role="Tournament" EntitySet="Tournament" />
+      <End Role="RegionalRestrictions" EntitySet="RegionalRestrictions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ResultPlayer_Tournament" Association="Self.FK_ResultPlayer_Tournament">
+      <End Role="Tournament" EntitySet="Tournament" />
+      <End Role="ResultPlayer" EntitySet="ResultPlayer" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Stage_Tournament" Association="Self.FK_Stage_Tournament">
+      <End Role="Tournament" EntitySet="Tournament" />
+      <End Role="Stage" EntitySet="Stage" />
+    </AssociationSet>
+    <AssociationSet Name="FK_StageRestriction_Stage" Association="Self.FK_StageRestriction_Stage">
+      <End Role="Stage" EntitySet="Stage" />
+      <End Role="StageRestriction" EntitySet="StageRestriction" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
