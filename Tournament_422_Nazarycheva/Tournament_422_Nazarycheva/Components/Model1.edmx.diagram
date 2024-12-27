@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3f5e431b997d437d86181ac572d9ea58" Name="Diagram1">
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.Category" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.CharacterRestriction" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.Game" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.Organizer" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.Player" Width="1.5" PointX="3" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.Region" Width="1.5" PointX="3" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.RegionalRestrictions" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.ResultPlayer" Width="1.5" PointX="5.25" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.Role" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.Stage" Width="1.5" PointX="5.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.StageRestriction" Width="1.5" PointX="7.5" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.Team" Width="1.5" PointX="0.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TournamentDB_422_NazarychevaModel.Tournament" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_CharacterRestriction_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_CharacterRestriction_Tournament" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_Tournament_Game" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_Tournament_Organizer" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_Player_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_Player_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_Player_Team" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_ResultPlayer_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_StageRestriction_Player" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_RegionalRestrictions_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_RegionalRestrictions_Tournament" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_ResultPlayer_Tournament" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_Stage_Tournament" ManuallyRouted="false" />
+        <AssociationConnector Association="TournamentDB_422_NazarychevaModel.FK_StageRestriction_Stage" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
