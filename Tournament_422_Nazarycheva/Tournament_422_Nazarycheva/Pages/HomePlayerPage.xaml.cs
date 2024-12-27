@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Tournament_422_Nazarycheva.Components;
 
 namespace Tournament_422_Nazarycheva.Pages
 {
@@ -23,6 +24,23 @@ namespace Tournament_422_Nazarycheva.Pages
         public HomePlayerPage()
         {
             InitializeComponent();
+            Navigations.homePlayerPage = this;
+        }
+
+        private void ExitBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.thisPlayer = new Player();
+            Navigations.NextPage(new AutharizationPage());
+        }
+
+        private void ProfileBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Navigations.NextPlayerPage(new ProfilePlayerPage(App.thisPlayer));
+        }
+
+        private void TournamentBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Navigations.NextPlayerPage(new ListAllTournamentPage("All"));
         }
     }
 }

@@ -145,6 +145,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\HomeOrganizerPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\HomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -154,6 +158,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\ListAllTournamentPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\ProfilePlayerPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -170,6 +178,9 @@
     <Compile Include="Pages\AutharizationPage.xaml.cs">
       <DependentUpon>AutharizationPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\HomeOrganizerPage.xaml.cs">
+      <DependentUpon>HomeOrganizerPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
@@ -178,6 +189,9 @@
     </Compile>
     <Compile Include="Pages\ListAllTournamentPage.xaml.cs">
       <DependentUpon>ListAllTournamentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ProfilePlayerPage.xaml.cs">
+      <DependentUpon>ProfilePlayerPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\RegistrationOrganizerPage.xaml.cs">
       <DependentUpon>RegistrationOrganizerPage.xaml</DependentUpon>

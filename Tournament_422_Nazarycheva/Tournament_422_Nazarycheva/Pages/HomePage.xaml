@@ -14,7 +14,7 @@
             <ColumnDefinition Width="161*"/>
         </Grid.ColumnDefinitions>
 
-        <Frame Grid.Column="1" x:Name="ViewerFrame"></Frame>
+        <Frame Grid.Column="1" x:Name="ViewerFrame" NavigationUIVisibility="Hidden"></Frame>
 
         <StackPanel>
             <Button x:Name="FutureBtn" Click="FutureBtn_Click">Будущие</Button>

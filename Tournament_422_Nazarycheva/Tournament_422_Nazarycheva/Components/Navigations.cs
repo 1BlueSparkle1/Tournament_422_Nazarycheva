@@ -12,6 +12,7 @@ namespace Tournament_422_Nazarycheva.Components
     {
         public static MainWindow mainWindow;
         public static HomePage homePage;
+        public static HomePlayerPage homePlayerPage;
         public static void NextPage(Page page)
         {
             mainWindow.MainFrame.Navigate(page);
@@ -20,6 +21,11 @@ namespace Tournament_422_Nazarycheva.Components
         public static void NextVieverPage(Page page)
         {
             homePage.ViewerFrame.Navigate(page);
+        }
+
+        public static void NextPlayerPage(Page page)
+        {
+            homePlayerPage.PlayerFrame.Navigate(page);
         }
     }
 }

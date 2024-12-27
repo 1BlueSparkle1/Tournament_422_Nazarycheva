@@ -1,0 +1,29 @@
+﻿<Page x:Class="Tournament_422_Nazarycheva.Pages.ProfilePlayerPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Tournament_422_Nazarycheva.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ProfilePlayerPage">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock>Команда:</TextBlock>
+            <TextBlock x:Name="TeamTb"></TextBlock>
+            <TextBlock>Никнейм:</TextBlock>
+            <TextBlock x:Name="NicknameTb"></TextBlock>
+            <TextBlock>Телефон:</TextBlock>
+            <TextBlock x:Name="PhoneTb"></TextBlock>
+            <TextBlock>Роль:</TextBlock>
+            <TextBlock x:Name="RoleCb"></TextBlock>
+            <TextBlock>Регион:</TextBlock>
+            <TextBlock x:Name="RegionCb"></TextBlock>
+            <TextBlock>Логин:</TextBlock>
+            <TextBlock x:Name="LoginTb"></TextBlock>
+            <TextBlock>Пароль:</TextBlock>
+            <TextBlock x:Name="PasswordTb"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

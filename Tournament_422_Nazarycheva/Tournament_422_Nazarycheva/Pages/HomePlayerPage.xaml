@@ -14,8 +14,14 @@
             <ColumnDefinition Width="319*"/>
         </Grid.ColumnDefinitions>
 
-        <Frame Name="PlayerFrame">
+        <Frame Grid.Column="1" Name="PlayerFrame" NavigationUIVisibility="Hidden">
             
         </Frame>
+
+        <StackPanel>
+            <Button x:Name="ProfileBtn" Click="ProfileBtn_Click">Профиль</Button>
+            <Button x:Name="TournamentBtn" Click="TournamentBtn_Click">Турниры</Button>
+            <Button x:Name="ExitBtn" Click="ExitBtn_Click">Выйти</Button>
+        </StackPanel>
     </Grid>
 </Page>

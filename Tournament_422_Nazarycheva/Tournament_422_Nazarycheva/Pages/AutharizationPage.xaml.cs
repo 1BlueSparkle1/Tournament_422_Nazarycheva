@@ -52,7 +52,7 @@ namespace Tournament_422_Nazarycheva.Pages
                 {
                     MessageBox.Show("вы вошли");
                     user = true;
-                    Navigations.NextPage(new HomePage());
+                    Navigations.NextPage(new HomePlayerPage());
                     find = false;
                 }
                 else

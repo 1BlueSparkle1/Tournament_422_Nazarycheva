@@ -32,3 +32,9 @@ C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva
 C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\obj\Debug\Pages\ListAllTournamentPage.g.cs
 C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\obj\Debug\Components\userControls\TournamentUserControl.baml
 C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\obj\Debug\Pages\ListAllTournamentPage.baml
+C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\obj\Debug\Pages\HomePlayerPage.g.cs
+C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\obj\Debug\Pages\ProfilePlayerPage.g.cs
+C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\obj\Debug\Pages\HomePlayerPage.baml
+C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\obj\Debug\Pages\ProfilePlayerPage.baml
+C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\obj\Debug\Pages\HomeOrganizerPage.g.cs
+C:\Users\LERA\source\repos\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\Tournament_422_Nazarycheva\obj\Debug\Pages\HomeOrganizerPage.baml
